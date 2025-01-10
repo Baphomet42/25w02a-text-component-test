@@ -2,7 +2,7 @@
 
 ## This is for demo purposes only, do not use this in a real world
 
-This mod is a simple proof of concept that explores the possibility of storing all text components as its compound form, and not simplifying texts like `{text:"foo"}` to `"foo"`
+This 25w02a fabric mod is a simple proof of concept that explores the possibility of storing all text components as its compound form, and not simplifying texts like `{text:"foo"}` to `"foo"`
 
 The aim of this change would be to make working with text components in commands simpler, as there would be a single consistent form. This also attempts to address bugs in 25w02a that all result from simplified text components not behaving well in certain contexts.
 
