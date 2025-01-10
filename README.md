@@ -1,6 +1,6 @@
 # Text Test for Snapshot 25w02a
 
-## This is for demo purposes only, do not use this in a real world
+## This is for demo purposes only, use at your own risk
 
 This 25w02a fabric mod is a simple proof of concept that explores the possibility of storing all text components as its compound form, and not simplifying texts like `{text:"foo"}` to `"foo"`
 
@@ -15,6 +15,7 @@ Known areas where this mod would fix problems:
 + `extra` field of text components
 + signs
 + lore
+
 Known areas where this mod does not fix the issue of mixed lists in text components:
 + `with` field of text components
 
