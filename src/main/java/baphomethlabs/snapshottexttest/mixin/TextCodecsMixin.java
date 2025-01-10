@@ -17,8 +17,8 @@ public abstract class TextCodecsMixin {
             target = "Lnet/minecraft/text/Text;getLiteralString()Ljava/lang/String;"
         )
     )
-	private static String getLiteralStringOverride(Text text) {
+    private static String getLiteralStringOverride(Text text) {
         return null;
-	}
+    }
 
 }

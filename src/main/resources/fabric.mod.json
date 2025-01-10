@@ -8,8 +8,8 @@
 		"BaphomethLabs"
 	],
 	"contact": {
-		"homepage": "TODO",
-		"sources": "TODO"
+		"homepage": "https://baphomet42.github.io/",
+		"sources": "https://github.com/Baphomet42/25w02a-text-component-test"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/snapshottexttest/icon.png",
