@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "snapshottexttest",
+	"version": "${version}",
+	"name": "Text Test",
+	"description": "Snapshot 25w02a test",
+	"authors": [
+		"BaphomethLabs"
+	],
+	"contact": {
+		"homepage": "TODO",
+		"sources": "TODO"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/snapshottexttest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"baphomethlabs.snapshottexttest.SnapshotTextTestMod"
+		]
+	},
+	"mixins": [
+		"snapshottexttest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "*",
+		"java": ">=21"
+	}
+}
