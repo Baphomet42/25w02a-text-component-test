@@ -12,9 +12,10 @@ See the following bugs for more info:
 + https://bugs.mojang.com/browse/MC-279258 "Creating a sign with formatted text serializes lines without formatting incorrectly"
 
 Known areas where this mod would fix problems:
-+ lore
-+ signs
 + `extra` field of text components
++ signs
++ lore
+Known areas where this mod does not fix the issue of mixed lists in text components:
 + `with` field of text components
 
 Relevant discord threads:
