@@ -3,7 +3,7 @@
 	"id": "snapshottexttest",
 	"version": "${version}",
 	"name": "Text Test",
-	"description": "Snapshot 25w02a test",
+	"description": "1.21.5 Snapshot Text Component Test",
 	"authors": [
 		"BaphomethLabs"
 	],
