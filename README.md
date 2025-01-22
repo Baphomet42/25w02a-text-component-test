@@ -4,10 +4,9 @@
 
 This 25w02a fabric mod is a simple proof of concept that explores the possibility of storing all text components as its compound form, and not simplifying texts like `{text:"foo"}` to `"foo"`
 
-The aim of this change would be to make working with text components in commands simpler, as there would be a single consistent form. This also attempts to address bugs in 25w02a that all result from simplified text components not behaving well in certain contexts.
+The aim of this change would be to make working with text components in commands simpler, as there would be a single consistent form. This also attempts to address bugs in 25w02a-25w04a that all result from simplified text components not behaving well in certain contexts dealing with mixed-type nbt lists.
 
 See the following bugs for more info:
-+ https://bugs.mojang.com/browse/MC-279232 "SNBT text components prevent mixing text styles in lists"
 + https://bugs.mojang.com/browse/MC-279252 "Editing a single line of a sign is no longer possible in some situations"
 + https://bugs.mojang.com/browse/MC-279258 "Creating a sign with formatted text serializes lines without formatting incorrectly"
 
